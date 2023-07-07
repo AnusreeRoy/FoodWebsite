@@ -34,6 +34,7 @@ function index() {
       </div>
       <div className={styles.foot}>
       </div>
+      
       </div> 
     </>
   );
