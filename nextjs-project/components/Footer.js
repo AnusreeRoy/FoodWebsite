@@ -1,26 +1,33 @@
 import styles from "../styles/test.module.css";
 import Link from "next/link";
 import React from 'react'
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faHighlighter } from '@fortawesome/free-solid-svg-icons';
-import{
-  faTwitter,
-  faInstragram,
-  faFacebook
-}from '@fortawesome/free-solid-svg-icons'
-library.add(
-  faTwitter,
-  faInstragram,
-  faFacebook
-)
+// import { library,faCode, faHighlighter } from '@fortawesome/fontawesome-svg-core';
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import{
+//   faTwitter,
+//   faInstragram,
+//   faFacebook
+// }from '@fortawesome/free-solid-svg-icons'
+// library.add(
+//   faTwitter,
+//   faInstragram,
+//   faFacebook
+// )
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { IconContext } from "react-icons";
+// import { AiFillBank } from "react-icons/ai";
 function Footer() {
   return (
     <div>
         <ul>
-            <li><Link href="/"><FontAwesomeIcon icon={facode} style={{width:'40px'}}/></Link></li>
-               <li> <Link href="/">Instagram</Link></li>
-               <li> <Link href="/">twitter</Link></li>
+        <IconContext.Provider value={{ color: "rgb(97, 28, 14)", size:"30px", className: "global-class-name" }}>
+            <li><Link href="/"><FaFacebook /></Link></li>
+               <li> <Link href="/"><FaInstagram/></Link></li>
+               <li> <Link href="/"><FaTwitter/></Link></li>
+               </IconContext.Provider>
+
              </ul>
              <ul className={styles.ul2}>
              <p>Get Help</p>
