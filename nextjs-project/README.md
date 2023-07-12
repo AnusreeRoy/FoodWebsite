@@ -43,3 +43,14 @@ for customization and installing the icon: https://www.npmjs.com/package/react-i
 
 cd project name for directory 
 npx create-next-app@latest for creating new project
+
+for fixing issues: npm audit fix
+
+
+npm add react-icons
+npm add react-slideshow-image 
+
+
+for slideshow:https://www.tutorialspoint.com/how-to-create-an-image-slider-in-reactjs
+packages
+npm i react-simple-image-slider

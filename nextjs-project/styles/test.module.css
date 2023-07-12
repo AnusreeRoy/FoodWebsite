@@ -154,7 +154,12 @@ background-color:rgb(124, 63, 63);
   padding-left: 900px;
   padding-top: 10px;
 }
-/* .foot{
-  border-top: 4px solid white;
-  background-color: aquamarine;
-} */
+
+.slideshow{
+  height:60vh;
+  width: 99vw;
+  
+}
+.loginpg{
+  background-color: rgb(242, 124, 124);
+}

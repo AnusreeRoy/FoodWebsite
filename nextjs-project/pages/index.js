@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navbar from "@/components/Navbar";
 import SearchBar from "@/components/SearchBar";
 import Footer from "@/components/Footer";
+import Slideshow from "@/components/Slideshow";
 
 function index() {
   return (
@@ -35,6 +36,10 @@ function index() {
       </div>
       <div className={styles.foot}>
       </div>
+      <div>
+
+      </div>
+      <Slideshow/>
       
       </div> 
     </>
