@@ -14,8 +14,8 @@ export default function Slideshow(){
   return(
     <div >
       <SimpleImageSlider className={styles.slideshow}
-      // width={500}
-      // height={250}
+      width={500}
+      height={250}
       images={images}
       showNavs={true}
       showBullets={true}

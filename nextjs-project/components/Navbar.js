@@ -7,12 +7,12 @@ function Navbar() {
     <ul className={styles.ul}>
       <button className={styles.login}>
         <li>
-          <Link href="/login">Login</Link>
+          <Link href="/login" alt="login">Login</Link>
         </li>
       </button>
       <button className={styles.signup}>
         <li>
-          <Link href="/signup">Signup</Link>
+          <Link href="/signup" alt="signup">Signup</Link>
         </li>
       </button>
     </ul>

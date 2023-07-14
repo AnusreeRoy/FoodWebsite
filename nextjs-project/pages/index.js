@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "../styles/test.module.css";
 import Link from "next/link";
+import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import SearchBar from "@/components/SearchBar";
 import Footer from "@/components/Footer";
@@ -9,6 +10,12 @@ import Slideshow from "@/components/Slideshow";
 function index() {
   return (
     <>
+    <Head> 
+      <title>DeliEats:Find all sorts of foods</title>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+      <meta name="description"content="Food Website Home Page"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    </Head>
       <div className={styles.head}>
         <header className={styles.header}>
           <h1 className={styles.h1}>DeliEats</h1>    
@@ -36,11 +43,6 @@ function index() {
       </div>
       <div className={styles.foot}>
       </div>
-      <div>
-
-      </div>
-      <Slideshow/>
-      
       </div> 
     </>
   );
