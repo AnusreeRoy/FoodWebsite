@@ -9,9 +9,9 @@ function Login() {
   </div>
   <div className={styles.input}>
     <label for="Email">Email</label>
-    <input type="text" placeholder="Email Address"/>
+    <input type="text" placeholder=""/>
     <label for="password">Password</label>
-    <input type="password" placeholder="password"/>
+    <input type="password" placeholder=""/>
 </div>
 <div className={styles.button}>
   <button><Link href="/"></Link>Login</button>

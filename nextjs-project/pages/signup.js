@@ -15,18 +15,18 @@ function signup() {
          <div className={styles.signupform}>
          <form>
   <label for="fname">First name:</label>
-  <input type="text" placeholder="First name"/>< br/>
+  <input type="text" placeholder=""/>< br/>
   <label for="lname">Last name:</label>
-  <input type="text"placeholder="Last name"/>
+  <input type="text"placeholder=""/>
   <label for="Email">Email:</label>
-    <input type="text" placeholder="Email Address"/>
+    <input type="text" placeholder=""/>
     <label for="password">Password:</label>
-    <input type="password" placeholder="password"/>
+    <input type="password" placeholder=""/>
     <label for="number">Phone number:</label>
-    <input type="number" placeholder="phone number"/>
+    <input type="number" placeholder=""/>
     <button className={styles.verify}>Verify</button><br/>
     <label for="number">Verification Code:</label>
-    <input type="number" placeholder="code"/>
+    <input type="number" placeholder=""/>
     <div className={styles.signupbutton}>
   <button><Link href="/"></Link>Signup</button>
 </div>
