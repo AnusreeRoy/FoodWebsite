@@ -207,7 +207,8 @@ padding-left: 10px;
   border-radius:10px; 
   height:35px;
   width:65px;
-  padding-left: 10px;
+  display: flex;
+  justify-content: center;
   margin-left: 20vh;
   }
   .signuplink{
@@ -253,7 +254,7 @@ padding-left: 10px;
     color: rgb(72, 35, 35);
   padding-left: 5px;
   }
-  .signupform label{
+  .signupform form label{
     color: rgb(72, 35, 35);
     padding: 3px;
   }
@@ -270,9 +271,10 @@ padding-left: 10px;
   border-radius:10px; 
   height:35px;
   width:65px;
-  padding-left: 6px;
   margin-left: 10vh;
   margin-top: 3vh;
+  display: flex;
+  justify-content: center;
   }
 .verify{
 padding-left: 3px;
@@ -292,4 +294,7 @@ background-color: rgb(226, 102, 77);
 }
 .loginl{
   color: rgb(108, 36, 217);
+}
+.splaceholder{
+  margin-top: 20px;
 }
