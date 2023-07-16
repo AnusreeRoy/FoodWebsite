@@ -17,7 +17,7 @@ function Login() {
   <button><Link href="/"></Link>Login</button>
 </div>
 <div className={styles.signuplink}>
-  <p>{"Don't Have an account yet?"} <Link href="/signup">Signup</Link></p>
+  <p>{"Don't Have an account yet?"} <Link className={styles.signupl} href="/signup">Signup</Link></p>
 </div>
  </div>
    

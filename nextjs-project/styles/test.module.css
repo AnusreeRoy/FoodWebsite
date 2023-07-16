@@ -1,4 +1,4 @@
-
+/* Home pg */
 .header{
  background-color:rgb(242, 124, 124);
     display:flex;
@@ -160,6 +160,7 @@ background-color:rgb(124, 63, 63);
   width: 99vw;
   
 } */
+/* Login pg */
 .loginpg{
   background-color: rgb(242, 124, 124);
   height:100vh;
@@ -215,6 +216,10 @@ padding-left: 10px;
     color: rgb(153, 83, 67);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+  .input label{
+    color: rgb(72, 35, 35);
+    padding: 3px; 
+  }
   .loginh1{
   text-align:center;
   padding:15px;
@@ -223,5 +228,68 @@ padding-left: 10px;
   color:rgb(229, 215, 215);
   font-weight: bold;
   padding-top: 80px;
- 
+ }
+ .signupl{
+  color: rgb(108, 36, 217);
+ }
+ /* signup pg  */
+ .signupbox{
+  background-color: rgb(242, 124, 124);
+  height:100vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  padding: 20vh;
+ }
+.signupform{
+  height:65vh;
+  width: 25vw;
+  background-color: antiquewhite;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  padding: 7vh;
   }
+  .signupform input::placeholder{
+    color: rgb(72, 35, 35);
+  padding-left: 5px;
+  }
+  .signupform label{
+    color: rgb(72, 35, 35);
+    padding: 3px;
+  }
+  .signupform input{
+    border: 1px solid rgb(32, 16, 16);
+    background-color: rgb(241, 193, 183);
+    border-radius:10px;
+    height: 40px;
+    width: 15vw;
+  }
+  .signupbutton{
+  border: 1px solid black;
+  background-color: rgb(226, 102, 77);
+  border-radius:10px; 
+  height:35px;
+  width:65px;
+  padding-left: 6px;
+  margin-left: 10vh;
+  margin-top: 3vh;
+  }
+.verify{
+padding-left: 3px;
+border: 1px solid black;
+background-color: rgb(226, 102, 77);
+  border-radius:10px; 
+  height:25px;
+  width:50px;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+.loginlink{
+  padding-top:15px ;
+    padding-left: 10px;
+    color: rgb(153, 83, 67);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.loginl{
+  color: rgb(108, 36, 217);
+}
