@@ -58,3 +58,7 @@ npm i react-simple-image-slider
 
 For SEO optimization:
 https://moz.com/blog/the-ultimate-guide-to-seo-meta-tags
+
+for login:
+https://firebase.google.com/docs/auth/web/firebaseui
+

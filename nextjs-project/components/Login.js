@@ -8,13 +8,13 @@ function Login() {
 <h1 className={styles.loginh1}>DeliEats</h1>
   </div>
   <div className={styles.input}>
-    <label for="Email">Email</label>
+    <label for="Email">Email:</label>
     <input type="text" placeholder=""/>
-    <label for="password">Password</label>
+    <label for="password">Password:</label>
     <input type="password" placeholder=""/>
 </div>
 <div className={styles.button}>
-  <button><Link href="/"></Link>Login</button>
+  <button><Link href="/">Login</Link></button>
 </div>
 <div className={styles.signuplink}>
   <p>{"Don't Have an account yet?"} <Link className={styles.signupl} href="/signup">Signup</Link></p>

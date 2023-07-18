@@ -18,27 +18,27 @@ function signup() {
             <input className={styles.splaceholder}type="text" placeholder="" />
             <br />
             <label for="lname">Last name:</label>
-            <input type="text" placeholder="" />
+            <input className={styles.splaceholder} type="text" placeholder="" />
             <label for="Email">Email:</label>
-            <input type="text" placeholder="" />
+            <input className={styles.splaceholder} type="text" placeholder="" />
             <label for="password">Password:</label>
-            <input type="password" placeholder="" />
+            <input className={styles.splaceholder} type="password" placeholder="" />
             <label for="number">Phone number:</label>
-            <input type="number" placeholder="" />
+            <input className={styles.splaceholder} type="number" placeholder="" />
             <button className={styles.verify}>Verify</button>
             <br />
             <label for="number">Verification Code:</label>
-            <input type="number" placeholder="" />
+            <input className={styles.splaceholder}type="number" placeholder="" />
             <div className={styles.signupbutton}>
               <button>
-                <Link href="/"></Link>Signup
+                <Link href="/login">Signup</Link>
               </button>
             </div>
             <div className={styles.loginlink}>
               <p>
                 {"Already Have an account?"}
                 <Link className={styles.loginl} href="/login">
-                  Login
+                   Login
                 </Link>
               </p>
             </div>
