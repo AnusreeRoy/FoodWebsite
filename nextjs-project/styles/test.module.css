@@ -7,7 +7,7 @@
 }
 .ul{
   text-align: right;
-  padding: 20px
+  padding: 20px;
 }
 .h1{
   text-align: left;
@@ -298,4 +298,59 @@ background-color: rgb(226, 102, 77);
 .splaceholder{
   margin-top: 6px;
   margin-bottom: 12px;
+}
+
+/* profile pg */
+.drop {
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+
+}
+.dropbtn{
+  background-color: rgb(102, 50, 50);
+  color: white;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding: 10px;
+ margin-top: 20px;
+  
+}
+.dropcont{
+  background-color: transparent;
+  width: 150px;
+  height: 110px;
+  padding: 8px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column; 
+  display: none;
+position: absolute;
+
+}
+.links{
+  color: black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+display: block;
+}
+.dropbtn:hover{
+  background-color: rgb(124, 63, 63);
+}
+.dropcont:hover{
+  display: block;
+}
+.links:hover{
+  background-color:  rgb(124, 63, 63);
+}
+.logout{
+  background-color: rgb(102, 50, 50) ;
+  border-radius: 20px;
+  height: 50px;
+  width: 60px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.log{
+  color:blanchedalmond;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }

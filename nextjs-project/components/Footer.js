@@ -1,23 +1,10 @@
 import styles from "../styles/test.module.css";
 import Link from "next/link";
 import React from 'react'
-// import { library,faCode, faHighlighter } from '@fortawesome/fontawesome-svg-core';
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import{
-//   faTwitter,
-//   faInstragram,
-//   faFacebook
-// }from '@fortawesome/free-solid-svg-icons'
-// library.add(
-//   faTwitter,
-//   faInstragram,
-//   faFacebook
-// )
 import { FaFacebook } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { IconContext } from "react-icons";
-// import { AiFillBank } from "react-icons/ai";
 function Footer() {
   return (
     <div>

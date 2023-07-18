@@ -14,7 +14,7 @@ function Login() {
     <input type="password" placeholder=""/>
 </div>
 <div className={styles.button}>
-  <button><Link href="/">Login</Link></button>
+  <button><Link href="/profile">Login</Link></button>
 </div>
 <div className={styles.signuplink}>
   <p>{"Don't Have an account yet?"} <Link className={styles.signupl} href="/signup">Signup</Link></p>
